@@ -1,0 +1,308 @@
+html , body{
+    scroll-behavior: smooth;
+}
+.body-wrapper{
+    width: 100%;
+}
+.body-content{
+    padding: 30px;
+    text-align: center;
+    background-image: url("black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 550px;;
+    /* line-height: 30px;; */
+
+}
+.body-content p{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    word-spacing: 5px;
+   margin-top: 100px; 
+ }
+ .details{
+     font-size: 18px;
+     color: #00ADAD;
+     /* margin-top: -20px; */
+    
+ }
+
+ input{
+    padding: 10px;
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.button-wrapper{
+    margin-top: 30px;
+    text-align: center;
+}
+.button-wrapper li{
+    display: inline-block;
+    margin: 30px;
+    margin-top: 5px;
+    border: solid 1px white;
+    padding: 5px;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#maleSpecs,#femaleSpecs,#otherSpecs{ 
+     background-color:#00ADAD;;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s ease-in;
+} 
+
+#maleSpecs div,#femaleSpecs div,#otherSpecs div{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+ }
+ 
+.maleWrapper, .femaleWrapper ,.other{
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    color: black
+    
+
+}
+.button-wrapper li:hover{
+    background-color: white;
+    color: #00ADAD;
+}
+.list-box{
+    scroll-behavior: smooth;
+
+}
+.list-content li{
+    list-style: none;
+    margin: 10%;
+   padding: 20px;
+   border: solid 2px #00ADAD;;
+   border-radius: 20px;
+   box-shadow:  1px 1px 5px 5px #ccc; 
+
+}
+.list-box p{
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;;
+}
+.list-box{
+    text-align: center;
+    margin-top: 50px;
+}
+.number li{
+    display: inline-block;
+    border: solid 2px #00ADAD;;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow:  1px 1px 5px 5px #ccc;
+    margin: 20px;
+    cursor: pointer; 
+}
+
+.number{
+    padding: 20px;
+    text-align: center;
+}
+.feedback{
+    margin: 50px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 173, 173, 0.3);
+}
+.icon{
+    position: relative;
+    left: -40px;
+    top: 3px;
+    color: #00ADAD;;
+ }
+
+@media only screen and (min-width: 1024px) {
+   
+    .body-wrapper{
+        margin: 0;
+    }
+    .body-content{
+        text-align: left;
+        padding: 60px;
+        padding-left: 100px;
+        background-image: url("black.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 300px;;
+        line-height: 40px;;
+    
+    
+    
+    }
+    .body-content p{
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 37px;
+        color: white;
+        word-spacing: 5px;
+     }
+     .details{
+         font-size: 27px;
+         color: #00ADAD;
+         margin-top: -20px;
+        
+     }
+     input{
+         padding: 15px;
+         margin-top: 30px;
+         width: 600px;
+         border-radius: 20px;
+         font-size: 17px;
+     }
+     .button-wrapper{
+         display: flex;
+         justify-content: space-evenly;
+         margin-top: 30px;
+     }
+     .button-wrapper li{
+        display: inline-block;
+        margin: 30px;
+        margin-top: 5px;
+        border: solid 1px white;
+        padding: 5px;
+    }
+    .button-wrapper li:hover{
+        background-color: white;
+        color: #00ADAD;
+    }
+    .title{
+        font-weight: normal;
+        font-size: 17px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+     #maleSpecs,#femaleSpecs,#otherSpecs{ 
+        display: none; 
+         background-color:#00ADAD;;
+        position: absolute;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 15px;
+        transition: all 0.5s ease-in;
+    } 
+    #maleSpecs div,#femaleSpecs div,#otherSpecs div{
+       font-size: 20px;
+       font-weight: bolder;
+       padding: 0px;
+    }
+    #otherSpecs{
+        right: 50px;
+    }
+    #femaleSpecs{
+        right: 380px;;
+    }
+    #maleSpecs{
+        left: 50px;
+    }
+    
+    .maleWrapper, .femaleWrapper ,.other{
+        cursor: pointer;
+        background-color: #ABABAB;
+        padding: 10px 30px;
+        border-radius: 20px;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;;
+        
+    
+    }
+    
+    .feedback{
+        margin: 50px;
+        margin-top: 100px;
+        font-size: 40px;
+        font-weight: bold;
+        color: rgba(0, 173, 173, 0.3);
+    }
+    .maleWrapper:hover{
+        color: white;
+    }
+    .femaleWrapper:hover{
+        color: white;
+    }
+    .other:hover{
+        color: white;
+    }
+    .maleWrapper:hover  #maleSpecs{
+        display: block;
+    
+    }
+    .femaleWrapper:hover  #femaleSpecs{
+        display: block;
+    
+    }
+    .other:hover  #otherSpecs{
+        display: block;
+    
+    }
+  
+    .list-content li{
+        list-style: none;
+        display: inline-block;;;
+        margin: 20px;
+       padding: 50px;
+       border: solid 2px #00ADAD;;
+       border-radius: 20px;
+       box-shadow:  1px 1px 5px 5px #ccc; 
+    
+    }
+    .list-box{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .list-box p{
+        padding: 0px;
+        width: 100%;
+        text-align: center; 
+        overflow: hidden;
+    }
+    .number li{
+        display: inline-block;
+        border: solid 2px #00ADAD;;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow:  1px 1px 5px 5px #ccc;
+        margin: 20px;
+        cursor: pointer; 
+    }
+    .number{
+        padding: 20px;
+        text-align: center;
+    }
+    .icon{
+       position: relative;
+       left: -50px;
+       color: #00ADAD;;
+       font-size: 17px;
+    }
+
+}
+
